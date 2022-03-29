@@ -1,6 +1,7 @@
+
 const mongoose = require("mongoose");
 
-const musicSchema = new mongoose.musicSchema({
+const musicSchema = new mongoose.Schema({
   name: {
     type: String,
     require: true,
@@ -19,4 +20,4 @@ const musicSchema = new mongoose.musicSchema({
   },
 });
 
-module.exportes = mongoose.model("Music", musicSchema);
+module.exports = mongoose.model("Music", musicSchema);
