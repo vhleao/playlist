@@ -1,0 +1,27 @@
+{
+  "name": "playlist",
+  "version": "1.0.0",
+  "description": "playlist da Blue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhleao/playlist.git"
+  },
+  "author": "vhleao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vhleao/playlist/issues"
+  },
+  "homepage": "https://github.com/vhleao/playlist#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  }
+}
